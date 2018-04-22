@@ -194,3 +194,5 @@ Session.vim
 tags
 
 
+# Output from `conda-build`-ing
+build-output/

@@ -29,7 +29,7 @@ with app.app_context():
               {
                   'title': 'Wow, it really is true!!',
                   'content': 'I thought Sam was probably an ok guy, but this app totally convinced me otherwise!',
-                  'updated_at': datetime.now().timestamp(),
+                  'updated_at': int(datetime.now().timestamp()),
                   'rating': 5,
                   'sentiment': 0.95,
                   'entities': ['Sam', 'guy', 'app', 'convinced']
@@ -37,7 +37,7 @@ with app.app_context():
               {
                   'title': 'Doesn\'t this app seem kind of petty?',
                   'content': 'I mean, regardless of whether or not Sam sucks, why go through the trouble of making an app about it?',
-                  'updated_at': datetime.now().timestamp(),
+                  'updated_at': int(datetime.now().timestamp()),
                   'rating': 2,
                   'sentiment': 0.35,
                   'entities': ['Sam', 'trouble', 'app']
@@ -45,7 +45,7 @@ with app.app_context():
               {
                   'title': 'Petty? You\'re petty!!' ,
                   'content': 'People should be free to make any app they want! Maybe you don\'t like it, and that\'s fine, but let those of us who ant to see Sam for what he really is be free!!',
-                  'updated_at': datetime.now().timestamp(),
+                  'updated_at': int(datetime.now().timestamp()),
                   'rating': 5,
                   'sentiment': 0.05,
                   'entities': ['People', 'free', 'app', 'want']
