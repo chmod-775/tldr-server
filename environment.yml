@@ -1,0 +1,7 @@
+name: tldr-server
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python==3.6.3
+  - flask
